@@ -6,7 +6,6 @@ import { Link } from 'gatsby';
 
 export default (location) => {
     const [bookmark] = useMutation(ADD_BOOKMARK)
-    console.log('Props : ', location)
     let title, image, url, descp
 
     let addbookmark = (e) => {

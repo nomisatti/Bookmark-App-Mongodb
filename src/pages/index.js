@@ -2,7 +2,7 @@ import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { REMOVE_BOOKMARK, BOOKMARK_QUERY } from '../graphql/graphql'
 import './index.css'
-import { Table, Container } from 'react-bootstrap';
+import { Table, Container , Spinner } from 'react-bootstrap';
 import { useQuery, useMutation } from '@apollo/client'
 import { Link } from "gatsby";
 
@@ -33,7 +33,9 @@ export default function Home() {
 
   }
   if (loading) {
-    return <p> Loading ....</p>
+    return <Spinner  animation="border" role="status">
+    <span className="sr-only">Loading...</span>
+  </Spinner>
   }
   if (error) {
     return <p> Error .... </p>

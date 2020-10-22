@@ -1,6 +1,8 @@
 const { ApolloServer, gql } = require('apollo-server-lambda')
 var mongoose = require('mongoose')
 let connection = null;
+const dotenv = require('dotenv');
+dotenv.config();
 
 databaseConnection = async() => {
   if(!connection) {
