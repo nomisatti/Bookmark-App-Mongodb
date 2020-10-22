@@ -16,7 +16,7 @@ databaseConnection = async() => {
 
       // Define Scehma 
       const BookMarkSchema = new mongoose.Schema({
-        id : Number ,
+        id : {type:Number , index: true} ,
         title: String ,
         url : String ,
         description : String ,
