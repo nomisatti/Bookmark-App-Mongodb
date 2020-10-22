@@ -7,7 +7,7 @@ dotenv.config();
 databaseConnection = async() => {
   if(!connection) {
     try{
-      mongoose.connect(process.env.MONGO_DATABASE_CONNECTIONSTRING , {
+      mongoose.connect('mongodb+srv://nomisatti:nomisatti@cluster0.il5s9.mongodb.net/BookMark?retryWrites=true&w=majority' , {
         useNewUrlParser:true , useUnifiedTopology:true , bufferCommands: false , bufferMaxEntries:0
       });
 
