@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Container, Form } from 'react-bootstrap';
 import { useMutation } from '@apollo/client'
-import { ADD_BOOKMARK, BOOKMARK_QUERY } from './graphql/graphql'
+import { ADD_BOOKMARK, BOOKMARK_QUERY } from '../graphql/graphql'
 import { Link } from 'gatsby';
 
 export default (location) => {

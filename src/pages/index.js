@@ -1,6 +1,6 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { REMOVE_BOOKMARK, BOOKMARK_QUERY } from './graphql/graphql'
+import { REMOVE_BOOKMARK, BOOKMARK_QUERY } from '../graphql/graphql'
 import './index.css'
 import { Table, Container } from 'react-bootstrap';
 import { useQuery, useMutation } from '@apollo/client'
