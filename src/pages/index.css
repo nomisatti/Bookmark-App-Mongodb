@@ -1,0 +1,15 @@
+.bookmark-image{
+    width:200px !important;
+}
+
+.table-dark td, .table-dark th, .table-dark thead th {
+    border-color: #454d55;
+    width: 15%;
+}
+
+.table-dark td:nth-child(4), .table-dark th:nth-child(4), .table-dark thead th:nth-child(4) {
+    width:40% !important
+}
+.container{
+    margin-top:5%;
+}
