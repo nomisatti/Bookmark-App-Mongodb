@@ -1,3 +1,4 @@
+import React from 'react'
 import gql from 'graphql-tag'
 export const BOOKMARK_QUERY = gql`{
     bookmark {
