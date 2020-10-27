@@ -14,5 +14,5 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 ## 🚀 Visit Website :
 
-   - https://bookmark-app-faunadb-ns.netlify.app/
+   - https://bookmark-app-mongodb.netlify.app/
 
